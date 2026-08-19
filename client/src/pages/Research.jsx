@@ -51,7 +51,7 @@ export default function Research({ onNavigate }) {
     setLoading(false);
   }
 
-  useEffect(() => { runResearch(); }, [freshnessPref, outcomeFilter]);
+  useEffect(() => { runResearch(); }, [company, freshnessPref, outcomeFilter]);
 
   const drift = data?.driftProfile;
   const selectedCompObj = companies.find(c => (c.name || '').toLowerCase() === (data?.company || company || '').toLowerCase());

@@ -79,7 +79,7 @@ export default function Search() {
   // Auto-run search on mount & when filters change
   useEffect(() => {
     handleSearch();
-  }, [freshnessPref, outcomeFilter]);
+  }, [company, freshnessPref, outcomeFilter]);
 
   const selectedCompObj = companies.find(c => (c.name || '').toLowerCase() === (company || '').toLowerCase());
   const companyRecordCount = selectedCompObj ? selectedCompObj.count : null;
