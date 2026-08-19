@@ -1,6 +1,8 @@
 /**
- * components.jsx — chhote reusable pieces
+ * components.jsx — Reusable UI Components for PrepGrounded
  */
+
+import { useState } from 'react';
 
 export function Tile({ label, value, note }) {
   return (
@@ -13,13 +15,12 @@ export function Tile({ label, value, note }) {
 }
 
 /**
- * Horizontal bar chart — single series (magnitude), isliye legend ki
- * zaroorat nahi; title hi series ka naam hai. Har bar pe direct label hai.
+ * BarChart Component
  */
 export function BarChart({ rows, max }) {
   const ceiling = max ?? Math.max(...rows.map(r => r.value), 1);
   return (
-    <div>
+    <div className="bar-chart">
       {rows.map(r => (
         <div className="bar-row" key={r.name}>
           <div className="name">{r.name}</div>
@@ -34,9 +35,7 @@ export function BarChart({ rows, max }) {
 }
 
 /**
- * Score breakdown — 3 series, hamesha numeric labels ke saath.
- * Labels optional nahi hain: aqua light surface pe 3:1 se neeche hai,
- * toh identity color-alone nahi carry kar sakti (dataviz relief rule).
+ * ScoreBars Component for Technical Research Views
  */
 export function ScoreBars({ scores, hideOutcome = false }) {
   if (!scores) return null;
@@ -69,52 +68,142 @@ export function ScoreLegend() {
   );
 }
 
-export function WhyThisResult({ result, modeLabel, companyRecordCount, isProduction = false, freshnessPreference = 'balanced' }) {
+/**
+ * EvidenceQualityBadge — User-Facing Evidence Quality Indicator
+ *
+ * High    -> [ ✓ High-quality evidence ]
+ * Medium  -> [ Medium evidence ]
+ * Limited -> [ Limited evidence ]
+ */
+export function EvidenceQualityBadge({ label, breakdown, flags = [] }) {
+  if (!label) return null;
+
+  let badgeClass = 'high';
+  let badgeText = '✓ High-quality evidence';
+
+  if (label === 'Medium') {
+    badgeClass = 'medium';
+    badgeText = 'Medium evidence';
+  } else if (label === 'Limited') {
+    badgeClass = 'limited';
+    badgeText = 'Limited evidence';
+  }
+
+  // Construct human-readable tooltip explanations based strictly on evidence flags
+  const reasons = [];
+  if (label === 'High') {
+    reasons.push('✓ Source information available');
+    reasons.push('✓ Detailed interview structure');
+    reasons.push('✓ Topics supported by source text');
+  }
+
+  if (flags.includes('unsupported_outcome')) {
+    reasons.push('⚠️ Candidate outcome could not be explicitly verified from source text.');
+  }
+  if (flags.includes('unsupported_topics')) {
+    reasons.push('⚠️ Some extracted topics are not explicitly supported by source text.');
+  }
+  if (flags.includes('sparse_content')) {
+    reasons.push('⚠️ Limited source detail is available.');
+  }
+  if (flags.includes('missing_source_metadata')) {
+    reasons.push('⚠️ Source metadata is incomplete.');
+  }
+
+  const tooltipTitle = reasons.length ? reasons.join('\n') : `Evidence Quality Tier: ${label}`;
+
+  return (
+    <span className={`evidence-badge ${badgeClass}`} title={tooltipTitle}>
+      {badgeText}
+    </span>
+  );
+}
+
+/**
+ * HumanWhyThisResult — Human-Readable Result Explanation
+ */
+export function HumanWhyThisResult({ result, companyRecordCount }) {
   const scores = result.scores || result._scores;
   if (!scores) return null;
 
   const now = new Date().getFullYear();
   const ageYears = result.year ? Math.max(0, now - result.year) : null;
-  const recencyLabel = ageYears !== null
-    ? (ageYears <= 2 ? `Recent interview (${ageYears}y old)` : `${ageYears} years old`)
-    : 'Unknown age';
 
+  // Translate recency into human readable copy
+  let recencyText = 'Interview from recent years';
+  if (ageYears !== null) {
+    if (ageYears === 0) recencyText = 'Recent interview — less than a year old';
+    else if (ageYears === 1) recencyText = 'Recent interview — about 1 year old';
+    else if (ageYears <= 2) recencyText = `Recent interview — about ${ageYears} years old`;
+    else recencyText = `Interview experience from ${ageYears} years ago`;
+  }
+
+  // Translate similarity score into human readable copy
   const simScore = scores.similarity;
-  const simLabel = simScore !== null && simScore !== undefined
-    ? (simScore >= 0.50 ? 'Strong semantic match' : simScore >= 0.25 ? 'Moderate semantic match' : 'Baseline match')
-    : 'N/A';
-
-  const modelName = modeLabel || (isProduction ? 'Production (Semantic + Recency)' : 'Semantic + Recency');
-
-  const pref = result.freshnessPreference || freshnessPreference || 'balanced';
-  const PREF_NAMES = { broad: 'Broad History', balanced: 'Balanced', recent: 'Recent First' };
-  const prefName = PREF_NAMES[pref] || 'Balanced';
-  const lambdaUsed = result.lambdaUsed || scores.lambda || 0.35;
+  let simText = 'Partial match';
+  if (simScore >= 0.50) simText = 'Strong match for your search';
+  else if (simScore >= 0.25) simText = 'Relevant to your search';
 
   return (
-    <div className="why-result" style={{ marginTop: 6, paddingTop: 6, borderTop: '1px dashed var(--border, #e5e7eb)', fontSize: 12 }}>
-      <div style={{ fontWeight: 600, color: 'var(--text-muted, #6b7280)', marginBottom: 4 }}>
-        Why this result? <span style={{ color: 'var(--primary, #2563eb)' }}>({modelName})</span>
-      </div>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, alignItems: 'center' }}>
-        <span className="chip" style={{ fontSize: 11, background: 'var(--bg-subtle, #f3f4f6)' }}>{simLabel} ({scores.similarity})</span>
-        <span className="chip" style={{ fontSize: 11, background: 'var(--bg-subtle, #f3f4f6)' }}>{recencyLabel} (recency: {scores.recency})</span>
-        {scores.final !== undefined && (
-          <span className="chip" style={{ fontSize: 11, background: 'var(--bg-subtle, #f3f4f6)', fontWeight: 600 }}>Score: {scores.final}</span>
+    <details className="why-result-details">
+      <summary className="why-summary-btn">
+        <span>💡 Why this result?</span>
+      </summary>
+      <div className="why-details-body">
+        <div className="why-bullet">✓ {simText}</div>
+        <div className="why-bullet">✓ {recencyText}</div>
+        <div className="why-bullet">✓ Grounded evidence from {result.source_site || 'verified post'}</div>
+
+        {companyRecordCount !== null && companyRecordCount < 5 && (
+          <div className="why-warning-bullet">
+            ⚠️ Note: Limited overall records available for {result.company} ({companyRecordCount} in corpus).
+          </div>
         )}
-        {companyRecordCount !== undefined && companyRecordCount !== null && companyRecordCount < 5 && (
-          <span className="chip" style={{ fontSize: 11, color: '#b45309', background: '#fef3c7', borderColor: '#fde68a' }}>
-            ⚠️ Limited evidence ({companyRecordCount} records)
-          </span>
-        )}
+
+        <div className="tech-debug-box">
+          <div className="tech-debug-title">Technical Retrieval Parameters</div>
+          <div>Semantic Similarity: <strong>{scores.similarity}</strong></div>
+          <div>Recency Score: <strong>{scores.recency}</strong></div>
+          <div>Production Score: <strong>{scores.final}</strong></div>
+        </div>
       </div>
-      <div style={{ marginTop: 4, fontSize: 11, color: 'var(--text-muted, #6b7280)' }}>
-        Freshness preference: <strong>{prefName}</strong>
-        <span style={{ marginLeft: 6, opacity: 0.7 }} title={`Temporal decay λ = ${lambdaUsed}`}> (λ = {lambdaUsed})</span>
+    </details>
+  );
+}
+
+/**
+ * TrendInsightCard — Progressive Disclosure Company Freshness Insight
+ */
+export function TrendInsightCard({ company, driftProfile, companyRecordCount }) {
+  const [expanded, setExpanded] = useState(false);
+  if (!company) return null;
+
+  const lambda = driftProfile?.lambda ?? 0.35;
+  const drift = driftProfile?.drift ?? 0.0;
+  const halfLife = (Math.log(2) / lambda).toFixed(1);
+
+  return (
+    <div className="card trend-insight-card">
+      <div className="trend-card-header">
+        <div className="trend-title-row">
+          <span className="insight-icon">📈</span>
+          <span className="trend-title">Interview Trend Insight</span>
+        </div>
+        <button className="btn-ghost btn-xs" onClick={() => setExpanded(!expanded)}>
+          {expanded ? 'Hide Details ▲' : 'Why? Technical Details ▼'}
+        </button>
       </div>
-      {result.source_url && (
-        <div style={{ marginTop: 4, fontSize: 11 }}>
-          Source: <a href={result.source_url} target="_blank" rel="noreferrer">{result.source_site || 'Original post'} ↗</a>
+
+      <p className="trend-copy">
+        {company}'s interview process and question patterns evolve over time, so newer interview experiences are prioritized in your search.
+      </p>
+
+      {expanded && (
+        <div className="trend-expanded-details">
+          <div className="mono-detail">Measured Drift Index: <strong>{drift}</strong></div>
+          <div className="mono-detail">Learned Decay (λ): <strong>{lambda}</strong></div>
+          <div className="mono-detail">Estimated Half-life: <strong>~{halfLife} years</strong></div>
+          <div className="mono-detail">Corpus Evidence Base: <strong>{companyRecordCount ?? '—'} records</strong></div>
         </div>
       )}
     </div>
@@ -132,10 +221,13 @@ export function Citation({ c, companyRecordCount }) {
       <div className="body">
         <div style={{ marginBottom: 6 }}>{(c.topics || []).map(t => <span className="chip" key={t}>{t}</span>)}</div>
         <p style={{ margin: '6px 0' }}>{c.snippet}</p>
-        {c.source_url && <a href={c.source_url} target="_blank" rel="noreferrer">view original ↗</a>}
+        {c.source_url && <a href={c.source_url} target="_blank" rel="noreferrer">View Original Post ↗</a>}
         <ScoreBars scores={c.scores} />
-        <WhyThisResult result={c} modeLabel="Semantic + Recency" companyRecordCount={companyRecordCount} />
       </div>
     </details>
   );
+}
+
+export function WhyThisResult(props) {
+  return <HumanWhyThisResult {...props} />;
 }
