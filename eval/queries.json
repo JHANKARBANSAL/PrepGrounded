@@ -1,0 +1,22 @@
+[
+  { "id": "q01", "company": "Amazon",    "query": "Amazon SDE interview rounds and process" },
+  { "id": "q02", "company": "Amazon",    "query": "Amazon online assessment coding questions" },
+  { "id": "q03", "company": "Amazon",    "query": "Amazon behavioural leadership principles round" },
+  { "id": "q04", "company": "Microsoft", "query": "Microsoft SDE interview coding round" },
+  { "id": "q05", "company": "Microsoft", "query": "Microsoft internship technical rounds" },
+  { "id": "q06", "company": "Google",    "query": "Google software engineer DSA interview" },
+  { "id": "q07", "company": "Google",    "query": "Google phone screening round questions" },
+  { "id": "q08", "company": "TCS",       "query": "TCS Ninja aptitude and technical interview" },
+  { "id": "q09", "company": "TCS",       "query": "TCS NQT interview process rounds" },
+  { "id": "q10", "company": "Infosys",   "query": "Infosys system engineer technical round" },
+  { "id": "q11", "company": "Infosys",   "query": "Infosys HR round questions" },
+  { "id": "q12", "company": "Flipkart",  "query": "Flipkart SDE interview rounds" },
+  { "id": "q13", "company": "Accenture", "query": "Accenture interview process and assessment" },
+  { "id": "q14", "company": "Adobe",     "query": "Adobe interview coding rounds" },
+  { "id": "q15", "company": "Oracle",    "query": "Oracle interview technical questions" },
+  { "id": "q16", "company": "Cognizant", "query": "Cognizant interview process rounds" },
+  { "id": "q17", "company": null,        "query": "dynamic programming interview questions" },
+  { "id": "q18", "company": null,        "query": "system design round for backend role" },
+  { "id": "q19", "company": null,        "query": "graph and tree problems asked in interviews" },
+  { "id": "q20", "company": null,        "query": "OOPs DBMS operating system technical round" }
+]

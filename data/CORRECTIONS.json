@@ -1,0 +1,23 @@
+{
+  "appliedAt": "post-audit",
+  "source": "20-record extraction audit against original source pages",
+  "totalCorrections": 2,
+  "corrections": [
+    {
+      "id": "gfg_qualityengineeringanalyst_2025_mszyzbxt_0h1e",
+      "field": "company",
+      "from": "Quality Engineering Analyst",
+      "to": "Infosys",
+      "evidence": "Article title and text explicitly state: Quality Engineering Analyst interview experience at Infosys. Extractor merged job title into company field.",
+      "type": "field_fix"
+    },
+    {
+      "id": "gfg_qualityengineeringanalyst_2025_mszyzbxt_0h1e",
+      "field": "role",
+      "from": "SDE",
+      "to": "Quality Engineering Analyst",
+      "evidence": "Corrected job role to Quality Engineering Analyst based on original article text.",
+      "type": "field_fix"
+    }
+  ]
+}

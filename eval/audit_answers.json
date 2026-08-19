@@ -1,0 +1,222 @@
+[
+  {
+    "id": "gfg_infosys_2022_02",
+    "source_url": "https://www.geeksforgeeks.org/infosys-interview-experience-for-system-engineer-july-2022/",
+    "_extracted_topics_count": 4,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 4,
+    "topics_missed": 0,
+    "note": "Published 29 Aug 2022, single 10-min Google Meet round, post states 'Verdict: Selected'. All 4 topics (Strings=palindrome, OOPs, DBMS, Behavioral=introduce yourself) evidenced. Clean record."
+  },
+  {
+    "id": "gfg_tcs_2024_01",
+    "source_url": "https://www.geeksforgeeks.org/tcs-ninja-interview-experience-2024-1/",
+    "_extracted_topics_count": 5,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 5,
+    "topics_missed": 0,
+    "note": "Page 'Last Updated' is 30 Jan 2025 but the article title says 2024 and body describes the 2024 NQT cycle, so year=2024 is supportable. 3 rounds (NQT test, technical, HR); post says the Ninja role was offered. Aptitude is inferred from the NQT written exam rather than a specific listed question - arguable but counted correct."
+  },
+  {
+    "id": "medium_salesforce_2025_29",
+    "source_url": "https://medium.com/@tanushreeb2607/my-salesforce-interview-experience-mts-selected-dc9a12c230bf",
+    "_extracted_topics_count": 5,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 4,
+    "topics_missed": 0,
+    "note": "Published 3 Nov 2025, interviewed Sept 2025, 4 rounds, final offer received. Arrays/DP/Strings/SystemDesign all evidenced. 'Projects' is NOT evidenced by any distinct project-discussion question in the post - the round-4 content is system design (Facebook search, parking lot), so 4/5 correct."
+  },
+  {
+    "id": "medium_zoho_2024_05",
+    "source_url": "https://medium.com/@vasanthgk02/my-zoho-off-campus-interview-experience-march-2024-cb104235dd40",
+    "_extracted_topics_count": 7,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 7,
+    "topics_missed": 0,
+    "note": "Published 31 Mar 2024, 4 rounds (aptitude, short coding, long coding, HR), states selected as MTS. All 7 topics evidenced; Recursion via valid-IP-address generation and the Fibonacci brute-force discussion (arguable, counted correct). A File I/O question in the short coding round has no vocabulary mapping so is not counted as missed."
+  },
+  {
+    "id": "gfg_amazon_2025_01",
+    "source_url": "https://www.geeksforgeeks.org/amazon-interview-experience-sde-1-6m-internship-october-2025/",
+    "_extracted_topics_count": 6,
+    "year_ok": false,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 6,
+    "topics_missed": 0,
+    "note": "DATE CONFLICT: the article title/URL says 'October 2025' but the page's Last Updated date is '28 Oct, 2024' - a post cannot describe an interview a year after publication, so the real timeframe is Oct 2024 and the extracted year 2025 was copied from an erroneous title. Marked year_ok=false. Rounds=3 (OA1, OA2, interview) correct; post genuinely never states a result so outcome 'unknown' is correct. All 6 topics evidenced (Networks/DBMS/OS from the OA MCQ subject list, Arrays+DP from Maximum Fruits, Trees from Root-to-Leaf Path Sum)."
+  },
+  {
+    "id": "medium_wipro_2022_06",
+    "source_url": "https://medium.com/@gursimar04/wipro-interview-experience-elite-nth-hiring-on-campus-easy-f309b946320c",
+    "_extracted_topics_count": 7,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 5,
+    "topics_missed": 0,
+    "note": "Published 29 Jan 2022. Two stages described (128-min Online Assessment incl. essay, then 15-min virtual interview) so total_rounds=2 accepted, though the essay section could arguably be counted separately. Candidate was selected (65/66 selected) even though he declined the offer. 'Strings' and 'OOPs' are NOT evidenced - the two coding problems are array/logic based and the Java questions are syntax/keyword trivia, not OOP concepts. 5/7 correct."
+  },
+  {
+    "id": "gfg_amazon_2019_04",
+    "source_url": "https://www.geeksforgeeks.org/amazon-interview-experience-for-sde-on-campus-2019/",
+    "_extracted_topics_count": 9,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 9,
+    "topics_missed": 0,
+    "note": "Published 11 Oct 2019, 5 rounds (1 OA + 4 technical), selected. All 9 topics evidenced: Arrays (matrix problems), Strings (URL formatting, substring search), Greedy (min platforms), DP (ticket cost, painters partition), LinkedList (reverse, palindrome), Graphs (cycle detection, Ford-Fulkerson), OS (semaphores/threads/scheduling), Trees (N-ary DFS), Recursion (recursive DFS). Best record in the sample."
+  },
+  {
+    "id": "prepinsta_pwc_2022_30",
+    "source_url": "https://prepinsta.com/interview-preparation/pwc-interview-experience/",
+    "_extracted_topics_count": 7,
+    "year_ok": true,
+    "outcome_ok": false,
+    "rounds_ok": true,
+    "topics_correct": 7,
+    "topics_missed": 0,
+    "note": "OUTCOME WRONG: the page never states whether the candidate was selected or rejected, yet the extraction asserts 'selected'. This is a hallucinated positive outcome. Year 2022 and 3 rounds (online test, technical, HR) are correct. All 7 topics evidenced; OOPs is via singleton class / design patterns questions (arguable, counted correct), Arrays via 'largest element in an array'."
+  },
+  {
+    "id": "leetcode_amazon_2019_24",
+    "source_url": "https://leetcode.com/discuss/post/457954/amazon-sde-intern-india-dec-19-offer/",
+    "_extracted_topics_count": 5,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 4,
+    "topics_missed": 0,
+    "note": "Interview Dec 2019, 3 rounds (online + 2 technical), offer received. Strings, DP, Arrays, Graphs all evidenced. 'Greedy' is NOT evidenced - no greedy problem appears; Trapping Rain Water is two-pointer/DP and Building Bridges is LIS/DP. 4/5 correct."
+  },
+  {
+    "id": "medium_oracle_2023_24",
+    "source_url": "https://medium.com/@sripriyamaturi8/oracle-interview-experience-bd0c176cc4bf",
+    "_extracted_topics_count": 6,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 6,
+    "topics_missed": 1,
+    "note": "Published 13 Aug 2023, 4 rounds (OA, coding, system design, managerial), states selected. All 6 extracted topics evidenced (Graphs via topological sort/MST/min-cut puzzle). MISSED: Projects - the managerial round includes a discussion of two projects, which the extraction did not capture as a topic even though it listed no project question."
+  },
+  {
+    "id": "gfg_amazon_2025_02",
+    "source_url": "https://www.geeksforgeeks.org/interview-experiences/amazon-interview-experience-for-sde-i-off-campus-2025/",
+    "_extracted_topics_count": 6,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 5,
+    "topics_missed": 0,
+    "note": "Published 13 Aug 2025, 4 rounds (OA, Tech 1, Tech 2, Bar Raiser), final outcome genuinely never stated so 'unknown' is correct. Arrays, SlidingWindow (Count Complete Subarrays), Behavioral (LP questions), Greedy (minimize sum by repeated merges) and Graphs (Rotten Oranges, BFS - arguable Graphs vs Arrays, counted correct) are evidenced. 'Projects' is NOT evidenced - 'current working role and responsibility' is a behavioral/LP question, not a project walkthrough. 5/6 correct."
+  },
+  {
+    "id": "gfg_tcs_2024_02",
+    "source_url": "https://www.geeksforgeeks.org/interview-experiences/tcs-nqt-complete-interview-experience-2025-batch-ninja-3-3lpa-full-time/",
+    "_extracted_topics_count": 5,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 5,
+    "topics_missed": 0,
+    "note": "Published 16 Dec 2024; assessment and interview both on 22 Nov 2024, so year 2024 / month 11 correct (the '2025' in the URL is the graduating batch, not the interview year - extraction handled this correctly). 2 rounds described. Post says 'Offer Date: Not received' without declaring rejection, so 'unknown' is correct. All 5 topics evidenced (Arrays via the Subarray Sum coding problem)."
+  },
+  {
+    "id": "gfg_tcs_2026_01",
+    "source_url": "https://www.geeksforgeeks.org/interview-experiences/tcs-interview-experience-for-digital-role-2026-graduate-on-campus/",
+    "_extracted_topics_count": 4,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": false,
+    "topics_correct": 4,
+    "topics_missed": 1,
+    "note": "Published 23 Feb 2026, interview 6 Jan 2026, states 'I was selected for the TCS Digital role'. ROUNDS WRONG: the post describes 3 rounds (Technical, Managerial, HR); the extraction says 4, apparently counting the opening introduce-yourself/hobbies exchange as a separate round. Arguable but the post labels only three. Topics: Behavioral, Arrays (Python lists vs arrays - a language-fundamentals question, arguable mapping, counted correct), DBMS, Projects all evidenced. MISSED: the managerial round's ML/metadata/False Positive Rate discussion has no clean vocabulary slot; counted 1 missed for the substantive technical area absent from the topic list."
+  },
+  {
+    "id": "leetcode_adobe_2021_06",
+    "source_url": "https://leetcode.com/discuss/interview-experience/1046765/adobe-sde2mts-noida-jan2021-reject",
+    "_extracted_topics_count": 8,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 7,
+    "topics_missed": 0,
+    "note": "Jan 2021, 5 rounds, candidate explicitly states he was rejected. Graphs (Alien Dictionary = topological sort), Strings, Arrays (2Sum/3Sum), Aptitude (puzzles), Projects (current project architecture), OS (concurrency), SystemDesign (IoT monitoring) all evidenced. 'OOPs' is NOT evidenced - HashMap internals is a data-structure/internals question, not an OOP-principles question. 7/8 correct."
+  },
+  {
+    "id": "gfg_microsoft_2021_01",
+    "source_url": "https://www.geeksforgeeks.org/microsoft-internship-interview-experience-on-campus-2021/",
+    "_extracted_topics_count": 6,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 6,
+    "topics_missed": 0,
+    "note": "Published 29 Jul 2021, 4 rounds (Codility + 3 interviews), states he was one of the 18 selected. All 6 topics evidenced: Arrays (frogs, element shifting), Strings (min characters, KMP), DP (Maximum Sum Paths - arguable, counted correct), LinkedList (loop detection), SystemDesign (round 3 design questions), OOPs (interface vs abstract class)."
+  },
+  {
+    "id": "leetcode_salesforce_2021_13",
+    "source_url": "https://leetcode.com/discuss/interview-experience/1128060/salesforce-mts-hyderabad-2021/",
+    "_extracted_topics_count": 7,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 6,
+    "topics_missed": 0,
+    "note": "Process started Dec 2020 and concluded in 2021; post is titled 2021 so year is acceptable (month correctly left blank). 5 rounds, 'Final verdict : Offer!!'. Strings, Arrays (subarray question), LinkedList, Recursion (backtracking), SystemDesign (cloud/serverless design question) and Behavioral (round 5) evidenced. 'Projects' is NOT evidenced as its own question - the design question drew on his experience but no project walkthrough is described. 6/7 correct. Note the candidate withheld specifics under NDA, so the question list is inherently vague."
+  },
+  {
+    "id": "medium_deloitte_2020_16",
+    "source_url": "https://medium.com/@17bcs013/deloitte-interview-experience-4b7b03700e55",
+    "_extracted_topics_count": 3,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 3,
+    "topics_missed": 1,
+    "note": "Post published Aug 2021 but the experience is explicitly dated 10 Nov 2020, so year 2020 / month 11 is correct. 3 rounds (AMCAT aptitude, L1, L3), selected (offer call on 13 Nov). Aptitude, Behavioral, Projects all evidenced. MISSED: DBMS - the L3 round asks how the database was connected to the e-commerce site and to name tables created, which is a distinct DBMS topic absent from the extracted list."
+  },
+  {
+    "id": "prepinsta_cisco_2023_34",
+    "source_url": "https://prepinsta.com/interview-preparation/cisco-interview-experience/",
+    "_extracted_topics_count": 7,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 6,
+    "topics_missed": 1,
+    "note": "2023, 4 rounds (OA, technical, managerial, HR), no outcome stated so 'unknown' is correct. Networks, OS (blue screen, OS MCQs), Graphs (Dijkstra, distance vector), Projects, Behavioral evidenced; Arrays counted correct only via the Merge Sort question (arguable). 'Aptitude' is NOT evidenced - the OA MCQs cover networking/OS/cybersecurity/programming, with no quantitative/logical/verbal section described. MISSED: Greedy - the OA coding section explicitly includes a greedy-algorithm problem."
+  },
+  {
+    "id": "gfg_amazon_2020_01",
+    "source_url": "https://www.geeksforgeeks.org/interview-experiences/amazon-interview-experience-for-sde-intern-on-campus-2020/",
+    "_extracted_topics_count": 5,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 5,
+    "topics_missed": 0,
+    "note": "Published 14 Oct 2020, 2 rounds. Outcome: the candidate never uses the word 'rejected' but states 'I couldn't make it to the 2nd technical interview', which is an explicit statement of not proceeding - 'rejected' is a fair reading, so marked true (borderline; a stricter reader could call this 'unknown'). All 5 topics evidenced: Aptitude (Reasoning Ability section), Behavioral (Workstyles Assessment), Trees (is-BST), Strings and Arrays (array-of-strings alphabet ordering)."
+  },
+  {
+    "id": "gfg_microsoft_2021_02",
+    "source_url": "https://www.geeksforgeeks.org/microsoft-interview-experience-off-campus-2021/",
+    "_extracted_topics_count": 4,
+    "year_ok": true,
+    "outcome_ok": true,
+    "rounds_ok": true,
+    "topics_correct": 4,
+    "topics_missed": 1,
+    "note": "Published 21 Apr 2021, interview 10 Apr 2021, 3 rounds (online test, technical 1, AA discussion), 'Got an offer'. Strings, Aptitude (goat-grass-lion puzzle), Arrays (priority queue problem) and Trees (BST) all evidenced. MISSED: Behavioral - the AA round includes general behavioral/background and university-performance questions that the extraction did not surface as a topic."
+  }
+]

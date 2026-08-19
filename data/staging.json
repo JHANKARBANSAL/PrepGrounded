@@ -1,0 +1,125 @@
+[
+  {
+    "id": "35c08ba5416cc3e4",
+    "created_at": "2026-08-19T12:52:04.688Z",
+    "company": "Stripe",
+    "role": "Software Engineer",
+    "year": 2026,
+    "month": 3,
+    "rounds": [
+      {
+        "round_number": 1,
+        "round_type": "OA",
+        "topics": [
+          "Arrays",
+          "Strings"
+        ],
+        "questions": [
+          "API rate limiter design question in coding round"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "topics": [
+      "Arrays",
+      "Strings",
+      "SystemDesign"
+    ],
+    "questions": [
+      "API rate limiter design question in coding round"
+    ],
+    "outcome": "selected",
+    "raw_text": "Stripe interviewed me for SDE 2026. Round 1 OA: Rate limiter coding problem. Round 2: System design of payment queue.",
+    "source_url": "https://www.geeksforgeeks.org/stripe-interview-experience-2026-test/",
+    "source_site": "geeksforgeeks",
+    "scraped_at": "2026-08-19T12:52:04.688Z",
+    "extraction_method": "deterministic_grounded_fallback",
+    "status": "STAGED",
+    "content_hash": "74ea1a482669f4da068d29c71f89ee7e8519cecfda6f99f70de816694d011ed2",
+    "staged_at": "2026-08-19T12:52:04.688Z"
+  },
+  {
+    "id": "568ed54659453001",
+    "created_at": "2026-08-19T12:52:04.688Z",
+    "company": "Amazon",
+    "role": "SDE-1",
+    "year": 2026,
+    "month": 4,
+    "rounds": [
+      {
+        "round_number": 1,
+        "round_type": "DSA",
+        "topics": [
+          "Trees",
+          "Graphs"
+        ],
+        "questions": [
+          "Lowest Common Ancestor in Binary Tree"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "topics": [
+      "Trees",
+      "Graphs"
+    ],
+    "questions": [
+      "Lowest Common Ancestor in Binary Tree"
+    ],
+    "outcome": "selected",
+    "raw_text": "Amazon campus drive 2026. Round 1 DSA: LCA in binary tree and graph traversal question.",
+    "source_url": "https://www.geeksforgeeks.org/amazon-interview-experience-2026-test/",
+    "source_site": "geeksforgeeks",
+    "scraped_at": "2026-08-19T12:52:04.688Z",
+    "extraction_method": "deterministic_grounded_fallback",
+    "status": "STAGED",
+    "content_hash": "9593ee14fdd4f34a05045badc6174fa7196ef58f2926ce04b8ef77bd2f0036c4",
+    "staged_at": "2026-08-19T12:52:04.688Z"
+  },
+  {
+    "id": "febec0dfbc29504c",
+    "created_at": "2026-08-19T12:52:04.688Z",
+    "company": "Databricks",
+    "role": "SDE-2",
+    "year": 2026,
+    "month": 2,
+    "rounds": [
+      {
+        "round_number": 1,
+        "round_type": "SystemDesign",
+        "topics": [
+          "SystemDesign",
+          "DBMS"
+        ],
+        "questions": [
+          "Design a distributed log storage engine"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "topics": [
+      "SystemDesign",
+      "DBMS"
+    ],
+    "questions": [
+      "Design a distributed log storage engine"
+    ],
+    "outcome": "selected",
+    "raw_text": "Databricks interview experience 2026 for SDE-2 role. Round 1 system design: distributed log storage.",
+    "source_url": "https://leetcode.com/discuss/interview-experience/699001/Databricks-SDE-2026/",
+    "source_site": "leetcode",
+    "scraped_at": "2026-08-19T12:52:04.688Z",
+    "extraction_method": "deterministic_grounded_fallback",
+    "status": "STAGED",
+    "content_hash": "5c23140fd7d79d73e2d117390ae4b063822a20d845b53f199cef6ddc0a983036",
+    "staged_at": "2026-08-19T12:52:04.688Z"
+  },
+  {
+    "id": "8fba1d8a50ee5643",
+    "created_at": "2026-08-19T12:52:04.703Z",
+    "company": "StagedTestCo",
+    "year": 2025,
+    "source_url": "https://www.geeksforgeeks.org/interview-experiences/staged-test-page-url/",
+    "raw_text": "Sample staged record raw text content for deduplication test"
+  }
+]

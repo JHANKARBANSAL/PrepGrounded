@@ -1,0 +1,250 @@
+/**
+ * styles.css
+ *
+ * Colors validated with the dataviz palette validator (3-slot categorical,
+ * all-pairs, light + dark). Aqua (series-3) light mode mein 3:1 se neeche hai,
+ * isliye score bars par HAMESHA visible numeric labels hain — wo "relief rule"
+ * hai, decoration nahi.
+ */
+
+:root {
+  color-scheme: light;
+
+  --surface-0: #f5f5f3;      /* page background */
+  --surface-1: #fcfcfb;      /* cards, chart surface */
+  --surface-2: #eeeeea;      /* subtle fills, track backgrounds */
+  --border:    #dcdcd6;
+
+  --text-primary:   #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted:     #85847e;
+
+  /* categorical — fixed order, never cycled */
+  --series-1: #2a78d6;   /* blue   — similarity */
+  --series-2: #eb6834;   /* orange — recency */
+  --series-3: #1baf7a;   /* aqua   — outcome */
+
+  /* status — reserved, never reused as a series color */
+  --status-good:     #0ca30c;
+  --status-warning:  #fab219;
+  --status-serious:  #ec835a;
+  --status-critical: #d03b3b;
+
+  --radius: 10px;
+  --radius-sm: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --surface-0: #121211;
+    --surface-1: #1a1a19;
+    --surface-2: #262624;
+    --border:    #383835;
+
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #8f8e86;
+
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--surface-0);
+  color: var(--text-primary);
+  font: 15px/1.55 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+code, .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; }
+
+/* ---------------------------------------------------------------- layout */
+
+.app { max-width: 1240px; margin: 0 auto; padding: 0 20px 60px; }
+
+.topbar {
+  display: flex; align-items: baseline; gap: 16px;
+  padding: 22px 0 18px; flex-wrap: wrap;
+}
+.topbar h1 { margin: 0; font-size: 19px; letter-spacing: -0.01em; }
+.topbar .tag { color: var(--text-muted); font-size: 13px; }
+
+.nav { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 22px; }
+.nav button {
+  background: none; border: none; cursor: pointer;
+  padding: 9px 14px; font-size: 14px; color: var(--text-secondary);
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.nav button:hover { color: var(--text-primary); }
+.nav button[aria-current="page"] {
+  color: var(--text-primary); font-weight: 600;
+  border-bottom-color: var(--series-1);
+}
+
+.card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+}
+.card + .card { margin-top: 16px; }
+.card h2 { margin: 0 0 4px; font-size: 15px; }
+.card .sub { color: var(--text-muted); font-size: 13px; margin: 0 0 14px; }
+
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 900px) { .grid-3, .grid-2 { grid-template-columns: 1fr; } }
+
+/* ---------------------------------------------------------------- controls */
+
+label.field { display: block; margin-bottom: 12px; }
+label.field span {
+  display: block; font-size: 12px; color: var(--text-secondary);
+  margin-bottom: 5px; font-weight: 500;
+}
+input, select, textarea {
+  width: 100%; padding: 8px 10px;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--surface-1); color: var(--text-primary);
+  font: inherit; font-size: 14px;
+}
+textarea { min-height: 90px; resize: vertical; }
+
+button.primary {
+  background: var(--series-1); color: #fff; border: none;
+  padding: 9px 18px; border-radius: var(--radius-sm);
+  font: inherit; font-weight: 600; cursor: pointer;
+}
+button.primary:disabled { opacity: .5; cursor: default; }
+button.ghost {
+  background: none; border: 1px solid var(--border); color: var(--text-secondary);
+  padding: 6px 12px; border-radius: var(--radius-sm); font: inherit; font-size: 13px; cursor: pointer;
+}
+button.ghost:hover { color: var(--text-primary); }
+button.danger { border-color: var(--status-critical); color: var(--status-critical); }
+
+.filters { display: flex; gap: 10px; align-items: flex-end; flex-wrap: wrap; margin-bottom: 14px; }
+.filters label.field { margin-bottom: 0; min-width: 130px; }
+
+/* ---------------------------------------------------------------- stat tile */
+
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+.tile {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px 16px;
+}
+.tile .label { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; }
+.tile .value { font-size: 26px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.1; }
+.tile .note { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
+
+/* ---------------------------------------------------------------- bars */
+
+/* Horizontal bar chart — magnitude, single series, so no legend needed. */
+.bar-row { display: grid; grid-template-columns: 118px 1fr 78px; align-items: center; gap: 10px; margin-bottom: 6px; }
+.bar-row .name { font-size: 13px; color: var(--text-secondary); text-align: right; }
+.bar-track { background: var(--surface-2); border-radius: var(--radius-sm); height: 15px; overflow: hidden; }
+.bar-fill {
+  height: 100%;
+  background: var(--series-1);
+  /* data-end rounded, baseline end square — anchors the bar to its axis */
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.bar-row .val { font-size: 12px; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+
+/* Score breakdown — 3 series, always with numeric labels (relief rule) */
+.score-bars { display: flex; flex-direction: column; gap: 3px; margin-top: 7px; }
+.score-bar { display: grid; grid-template-columns: 58px 1fr 42px; align-items: center; gap: 7px; }
+.score-bar .k { font-size: 11px; color: var(--text-muted); }
+.score-bar .t { background: var(--surface-2); height: 6px; border-radius: 3px; overflow: hidden; }
+.score-bar .f { height: 100%; border-radius: 0 3px 3px 0; }
+.score-bar .v { font-size: 11px; color: var(--text-secondary); font-variant-numeric: tabular-nums; text-align: right; }
+.f.sim { background: var(--series-1); }
+.f.rec { background: var(--series-2); }
+.f.out { background: var(--series-3); }
+
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); margin-bottom: 10px; }
+.legend .item { display: flex; align-items: center; gap: 5px; }
+.legend .swatch { width: 10px; height: 10px; border-radius: 2px; }
+
+/* ---------------------------------------------------------------- compare */
+
+.compare-col { background: var(--surface-1); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; }
+.compare-col.winner { border-color: var(--series-1); }
+.compare-col h3 { margin: 0 0 2px; font-size: 14px; }
+.compare-col .meta { font-size: 12px; color: var(--text-muted); margin-bottom: 12px; }
+
+.result {
+  border-top: 1px solid var(--border);
+  padding: 9px 0;
+  display: grid; grid-template-columns: 54px 1fr; gap: 10px;
+}
+.result:first-of-type { border-top: none; }
+/* Year is the whole point of the Compare view — make it readable from a distance */
+.year-badge {
+  font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums;
+  color: var(--text-primary); line-height: 1.2;
+}
+.year-badge.old { color: var(--status-critical); }
+.result .topics { font-size: 12px; color: var(--text-secondary); }
+.result .outcome { font-size: 11px; color: var(--text-muted); text-transform: capitalize; }
+
+/* ---------------------------------------------------------------- table */
+
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th {
+  text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .04em;
+  color: var(--text-muted); font-weight: 600;
+  padding: 8px 10px; border-bottom: 1px solid var(--border);
+}
+td { padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+tr:hover td { background: var(--surface-2); }
+
+/* ---------------------------------------------------------------- chips */
+
+.chip {
+  display: inline-block; padding: 2px 7px; border-radius: 20px;
+  font-size: 11px; border: 1px solid var(--border); color: var(--text-secondary);
+  margin: 2px 3px 2px 0; white-space: nowrap;
+}
+.chip.critical { border-color: var(--status-critical); color: var(--status-critical); }
+.chip.high     { border-color: var(--status-serious);  color: var(--status-serious); }
+.chip.medium   { border-color: var(--status-warning);  color: #8a6100; }
+@media (prefers-color-scheme: dark) { .chip.medium { color: var(--status-warning); } }
+.chip.good     { border-color: var(--status-good); color: var(--status-good); }
+
+/* ---------------------------------------------------------------- misc */
+
+.citation {
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 10px 12px; margin-bottom: 8px; background: var(--surface-1);
+}
+.citation summary { cursor: pointer; font-size: 13px; }
+.citation .body { margin-top: 8px; font-size: 13px; color: var(--text-secondary); }
+.citation a { color: var(--series-1); font-size: 12px; }
+
+.week { border-left: 3px solid var(--series-1); padding: 4px 0 4px 12px; margin-bottom: 14px; }
+.week h4 { margin: 0 0 3px; font-size: 13px; }
+.week .focus { font-size: 13px; color: var(--text-secondary); margin-bottom: 6px; }
+.week ul { margin: 5px 0; padding-left: 18px; font-size: 13px; color: var(--text-secondary); }
+
+.note {
+  background: var(--surface-2); border-radius: var(--radius-sm);
+  padding: 9px 12px; font-size: 12px; color: var(--text-secondary); margin-top: 10px;
+}
+.error { color: var(--status-critical); font-size: 13px; }
+.loading { color: var(--text-muted); font-size: 13px; padding: 20px 0; }
+
+.modal-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,.45);
+  display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 50;
+}
+.modal {
+  background: var(--surface-1); border-radius: var(--radius); padding: 20px;
+  width: 100%; max-width: 560px; max-height: 88vh; overflow: auto;
+  border: 1px solid var(--border);
+}

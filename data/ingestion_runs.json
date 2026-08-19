@@ -1,0 +1,38 @@
+[
+  {
+    "id": "384ead2265776c9b",
+    "created_at": "2026-08-19T12:52:04.685Z",
+    "startedAt": "2026-08-19T12:52:04.685Z",
+    "mode": "test",
+    "sourcesScanned": [
+      "geeksforgeeks",
+      "leetcode"
+    ],
+    "candidateUrlsFound": 3,
+    "duplicatesSkipped": 0,
+    "successfullyStaged": 3,
+    "extractionFailures": 0,
+    "validationFailures": 0,
+    "errors": [],
+    "status": "completed",
+    "completedAt": "2026-08-19T12:52:04.688Z"
+  },
+  {
+    "id": "e909f04cf1ec09dd",
+    "created_at": "2026-08-19T12:52:04.689Z",
+    "startedAt": "2026-08-19T12:52:04.689Z",
+    "mode": "test",
+    "sourcesScanned": [
+      "geeksforgeeks",
+      "leetcode"
+    ],
+    "candidateUrlsFound": 3,
+    "duplicatesSkipped": 3,
+    "successfullyStaged": 0,
+    "extractionFailures": 0,
+    "validationFailures": 0,
+    "errors": [],
+    "status": "completed",
+    "completedAt": "2026-08-19T12:52:04.692Z"
+  }
+]
