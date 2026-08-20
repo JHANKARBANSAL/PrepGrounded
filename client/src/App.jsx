@@ -79,23 +79,6 @@ export default function App() {
           </button>
         ))}
 
-        {/* System Admin Quick Access */}
-        <div className="nav-secondary">
-          <button
-            className={`nav-item-sm ${page === 'staging' ? 'active' : ''}`}
-            onClick={() => setPage('staging')}
-            title="Human Review & Approval Workflow"
-          >
-            Staging
-          </button>
-          <button
-            className={`nav-item-sm ${page === 'health' ? 'active' : ''}`}
-            onClick={() => setPage('health')}
-            title="System Health & Diagnostic Status"
-          >
-            Health
-          </button>
-        </div>
       </nav>
 
       {/* Main Active Page Content */}
