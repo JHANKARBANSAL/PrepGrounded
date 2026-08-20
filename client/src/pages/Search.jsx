@@ -79,7 +79,7 @@ export default function Search() {
   // Auto-run search on mount & when filters change
   useEffect(() => {
     handleSearch();
-  }, [company, freshnessPref, outcomeFilter]);
+  }, [company, outcomeFilter]);
 
   const selectedCompObj = companies.find(c => (c.name || '').toLowerCase() === (company || '').toLowerCase());
   const companyRecordCount = selectedCompObj ? selectedCompObj.count : null;
@@ -131,24 +131,6 @@ export default function Search() {
                   <option key={c.name} value={c.name}>{c.name} ({c.count})</option>
                 ))}
               </select>
-            </div>
-
-            {/* Freshness Select */}
-            <div className="control-box">
-              <label className="control-label" htmlFor="freshness-select">Freshness Preference</label>
-              <select
-                id="freshness-select"
-                className="select-input"
-                value={freshnessPref}
-                onChange={e => setFreshnessPref(e.target.value)}
-              >
-                {FRESHNESS_OPTIONS.map(opt => (
-                  <option key={opt.key} value={opt.key}>{opt.label}</option>
-                ))}
-              </select>
-              <span className="control-desc">
-                {FRESHNESS_OPTIONS.find(o => o.key === freshnessPref)?.desc}
-              </span>
             </div>
 
             {/* Outcome Filter */}
