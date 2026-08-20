@@ -16,7 +16,6 @@ const PRIMARY_PAGES = [
   ['search', 'Search', Search],
   ['insights', 'Insights', Insights],
   ['explore', 'Explore Data', ExploreData],
-  ['research', 'Research', Research],
 ];
 
 const SECONDARY_PAGES = {
