@@ -174,40 +174,8 @@ export function HumanWhyThisResult({ result, companyRecordCount }) {
 /**
  * TrendInsightCard — Progressive Disclosure Company Freshness Insight
  */
-export function TrendInsightCard({ company, driftProfile, companyRecordCount }) {
-  const [expanded, setExpanded] = useState(false);
-  if (!company) return null;
-
-  const lambda = driftProfile?.lambda ?? 0.35;
-  const drift = driftProfile?.drift ?? 0.0;
-  const halfLife = (Math.log(2) / lambda).toFixed(1);
-
-  return (
-    <div className="card trend-insight-card">
-      <div className="trend-card-header">
-        <div className="trend-title-row">
-          <span className="insight-icon">📈</span>
-          <span className="trend-title">Interview Trend Insight</span>
-        </div>
-        <button className="btn-ghost btn-xs" onClick={() => setExpanded(!expanded)}>
-          {expanded ? 'Hide Details ▲' : 'Why? Technical Details ▼'}
-        </button>
-      </div>
-
-      <p className="trend-copy">
-        {company}'s interview process and question patterns evolve over time, so newer interview experiences are prioritized in your search.
-      </p>
-
-      {expanded && (
-        <div className="trend-expanded-details">
-          <div className="mono-detail">Measured Drift Index: <strong>{drift}</strong></div>
-          <div className="mono-detail">Learned Decay (λ): <strong>{lambda}</strong></div>
-          <div className="mono-detail">Estimated Half-life: <strong>~{halfLife} years</strong></div>
-          <div className="mono-detail">Corpus Evidence Base: <strong>{companyRecordCount ?? '—'} records</strong></div>
-        </div>
-      )}
-    </div>
-  );
+export function TrendInsightCard() {
+  return null;
 }
 
 export function Citation({ c, companyRecordCount }) {
