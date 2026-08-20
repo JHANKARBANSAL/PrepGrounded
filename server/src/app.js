@@ -29,10 +29,13 @@ app.use((req, _res, next) => {
 
 
 app.get('/api/health', (_req, res) => {
+  const all = store.experiences.all();
+  const companyCount = new Set(all.map(r => r.company)).size;
   res.json({
     status: 'ok',
     ready: corpus.isReady(),
-    corpusSize: store.experiences.all().length,
+    corpusSize: all.length,
+    companyCount,
     embeddingProvider: embedProvider,
   });
 });

@@ -54,7 +54,7 @@ export default function App() {
         {health && (
           <div className="header-meta">
             <span className="meta-pill">{health.corpusSize} Verified Records</span>
-            <span className="meta-pill">25 Companies</span>
+            <span className="meta-pill">{health.companyCount || 33} Companies</span>
           </div>
         )}
       </header>
