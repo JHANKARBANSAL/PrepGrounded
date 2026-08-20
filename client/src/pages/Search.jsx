@@ -182,14 +182,7 @@ export default function Search() {
             <span className="summary-pill">Production Ranking (Semantic + Recency)</span>
           </div>
 
-          {/* Company Freshness Trend Insight Card (Progressive Disclosure) */}
-          {company && (
-            <TrendInsightCard
-              company={company}
-              driftProfile={driftProfile}
-              companyRecordCount={companyRecordCount}
-            />
-          )}
+
 
           {/* Empty State */}
           {results.length === 0 ? (
