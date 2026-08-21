@@ -3702,5 +3702,1869 @@
       "gfg_oncampusamazon_2025_mszyx3dd_cuz5",
       "gfg_amazonwow_2025_mszyx98e_miks"
     ]
+  },
+  {
+    "id": "8d6200117759785b",
+    "created_at": "2026-08-19T16:16:36.893Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 19,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 65,
+        "evidence": "11/17 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 53,
+        "evidence": "9/17 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 29,
+        "evidence": "5/17 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 29,
+        "evidence": "5/17 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 18,
+        "evidence": "3/17 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 17 Amazon interview records, your highest-impact gap is OS (asked in 65% of interviews). This plan front-loads it.",
+      "confidenceNote": "17 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + DBMS — asked in 65%/53%/35% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "DBMS"
+          ],
+          "practice": [
+            "Leadership Principle discussions",
+            "DSA questions (not specified)",
+            "DSA/LLD discussion",
+            "GenAI discussion"
+          ],
+          "citations": [
+            "leetcode_amazon_2026_27",
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DP + Trees + Strings — asked in 35%/35%/35% of recent Amazon interviews",
+          "topics": [
+            "DP",
+            "Trees",
+            "Strings"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2024_02"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Graphs + Aptitude + Networks — asked in 29%/29%/18% of recent Amazon interviews",
+          "topics": [
+            "Graphs",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2024_02",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "leetcode_amazon_2026_27",
+            "gfg_amazon_2026_01"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2024_02",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "gfg_oncampusamazon_2025_mszyx3dd_cuz5",
+      "gfg_amazonwow_2025_mszyx98e_miks"
+    ]
+  },
+  {
+    "id": "f548a654a1b476c4",
+    "created_at": "2026-08-19T16:42:23.966Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 19,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 65,
+        "evidence": "11/17 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 53,
+        "evidence": "9/17 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 29,
+        "evidence": "5/17 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 29,
+        "evidence": "5/17 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 18,
+        "evidence": "3/17 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 17 Amazon interview records, your highest-impact gap is OS (asked in 65% of interviews). This plan front-loads it.",
+      "confidenceNote": "17 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + DBMS — asked in 65%/53%/35% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "DBMS"
+          ],
+          "practice": [
+            "Leadership Principle discussions",
+            "DSA questions (not specified)",
+            "DSA/LLD discussion",
+            "GenAI discussion"
+          ],
+          "citations": [
+            "leetcode_amazon_2026_27",
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DP + Trees + Strings — asked in 35%/35%/35% of recent Amazon interviews",
+          "topics": [
+            "DP",
+            "Trees",
+            "Strings"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2024_02"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Graphs + Aptitude + Networks — asked in 29%/29%/18% of recent Amazon interviews",
+          "topics": [
+            "Graphs",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2024_02",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "leetcode_amazon_2026_27",
+            "gfg_amazon_2026_01"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2024_02",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "gfg_oncampusamazon_2025_mszyx3dd_cuz5",
+      "gfg_amazonwow_2025_mszyx98e_miks"
+    ]
+  },
+  {
+    "id": "01acae4936b0181e",
+    "created_at": "2026-08-19T22:52:12.846Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 19,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 65,
+        "evidence": "11/17 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 53,
+        "evidence": "9/17 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 29,
+        "evidence": "5/17 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 29,
+        "evidence": "5/17 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 18,
+        "evidence": "3/17 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 17 Amazon interview records, your highest-impact gap is OS (asked in 65% of interviews). This plan front-loads it.",
+      "confidenceNote": "17 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + DBMS — asked in 65%/53%/35% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "DBMS"
+          ],
+          "practice": [
+            "Leadership Principle discussions",
+            "DSA questions (not specified)",
+            "DSA/LLD discussion",
+            "GenAI discussion"
+          ],
+          "citations": [
+            "leetcode_amazon_2026_27",
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DP + Trees + Strings — asked in 35%/35%/35% of recent Amazon interviews",
+          "topics": [
+            "DP",
+            "Trees",
+            "Strings"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2024_02"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Graphs + Aptitude + Networks — asked in 29%/29%/18% of recent Amazon interviews",
+          "topics": [
+            "Graphs",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2024_02",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "leetcode_amazon_2026_27",
+            "gfg_amazon_2026_01"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2024_02",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "gfg_oncampusamazon_2025_mszyx3dd_cuz5",
+      "gfg_amazonwow_2025_mszyx98e_miks"
+    ]
+  },
+  {
+    "id": "8ed33f5a3731d330",
+    "created_at": "2026-08-19T23:01:05.987Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 19,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 65,
+        "evidence": "11/17 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 53,
+        "evidence": "9/17 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 35,
+        "evidence": "6/17 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 29,
+        "evidence": "5/17 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 29,
+        "evidence": "5/17 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 18,
+        "evidence": "3/17 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 17 Amazon interview records, your highest-impact gap is OS (asked in 65% of interviews). This plan front-loads it.",
+      "confidenceNote": "17 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + DBMS — asked in 65%/53%/35% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "DBMS"
+          ],
+          "practice": [
+            "Leadership Principle discussions",
+            "DSA questions (not specified)",
+            "DSA/LLD discussion",
+            "GenAI discussion"
+          ],
+          "citations": [
+            "leetcode_amazon_2026_27",
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DP + Trees + Strings — asked in 35%/35%/35% of recent Amazon interviews",
+          "topics": [
+            "DP",
+            "Trees",
+            "Strings"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2024_02"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Graphs + Aptitude + Networks — asked in 29%/29%/18% of recent Amazon interviews",
+          "topics": [
+            "Graphs",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2024_02",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "leetcode_amazon_2026_27",
+            "gfg_amazon_2026_01"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2024_02",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "gfg_oncampusamazon_2025_mszyx3dd_cuz5",
+      "gfg_amazonwow_2025_mszyx98e_miks"
+    ]
+  },
+  {
+    "id": "5ab1cb92e7a5df0e",
+    "created_at": "2026-08-19T23:52:43.709Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 23,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 57,
+        "evidence": "13/23 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 43,
+        "evidence": "10/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 30,
+        "evidence": "7/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 26,
+        "evidence": "6/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 17,
+        "evidence": "4/23 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 23 Amazon interview records, your highest-impact gap is OS (asked in 57% of interviews). This plan front-loads it.",
+      "confidenceNote": "23 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + Strings — asked in 57%/43%/30% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "Strings"
+          ],
+          "practice": [
+            "Deep dive project walkthrough: Explain tech stack architecture and design choices.",
+            "Find longest palindromic substring and check valid anagram string pattern matching.",
+            "Solve N-Queens problem using recursion and backtracking.",
+            "Reverse a doubly linked list in pairs and detect cycle using Floyd algorithm."
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276",
+            "gfg_amazon_2026_01"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DBMS + DP + Graphs — asked in 26%/22%/22% of recent Amazon interviews",
+          "topics": [
+            "DBMS",
+            "DP",
+            "Graphs"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Trees + Aptitude + Networks — asked in 22%/22%/17% of recent Amazon interviews",
+          "topics": [
+            "Trees",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "rec_amazon_2026_12_576",
+      "rec_amazon_2026_12_276",
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "rec_amazon_2025_11_251",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp"
+    ]
+  },
+  {
+    "id": "7f1290db8d4c6a49",
+    "created_at": "2026-08-20T00:04:03.232Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 23,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 57,
+        "evidence": "13/23 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 43,
+        "evidence": "10/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 30,
+        "evidence": "7/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 26,
+        "evidence": "6/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 17,
+        "evidence": "4/23 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 23 Amazon interview records, your highest-impact gap is OS (asked in 57% of interviews). This plan front-loads it.",
+      "confidenceNote": "23 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + Strings — asked in 57%/43%/30% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "Strings"
+          ],
+          "practice": [
+            "Deep dive project walkthrough: Explain tech stack architecture and design choices.",
+            "Find longest palindromic substring and check valid anagram string pattern matching.",
+            "Solve N-Queens problem using recursion and backtracking.",
+            "Reverse a doubly linked list in pairs and detect cycle using Floyd algorithm."
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276",
+            "gfg_amazon_2026_01"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DBMS + DP + Graphs — asked in 26%/22%/22% of recent Amazon interviews",
+          "topics": [
+            "DBMS",
+            "DP",
+            "Graphs"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Trees + Aptitude + Networks — asked in 22%/22%/17% of recent Amazon interviews",
+          "topics": [
+            "Trees",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "rec_amazon_2026_12_576",
+      "rec_amazon_2026_12_276",
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "rec_amazon_2025_11_251",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp"
+    ]
+  },
+  {
+    "id": "65de3f9572be5a5d",
+    "created_at": "2026-08-20T08:22:54.748Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 23,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 57,
+        "evidence": "13/23 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 43,
+        "evidence": "10/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 30,
+        "evidence": "7/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 26,
+        "evidence": "6/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 17,
+        "evidence": "4/23 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 23 Amazon interview records, your highest-impact gap is OS (asked in 57% of interviews). This plan front-loads it.",
+      "confidenceNote": "23 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + Strings — asked in 57%/43%/30% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "Strings"
+          ],
+          "practice": [
+            "Deep dive project walkthrough: Explain tech stack architecture and design choices.",
+            "Find longest palindromic substring and check valid anagram string pattern matching.",
+            "Solve N-Queens problem using recursion and backtracking.",
+            "Reverse a doubly linked list in pairs and detect cycle using Floyd algorithm."
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276",
+            "gfg_amazon_2026_01"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DBMS + DP + Graphs — asked in 26%/22%/22% of recent Amazon interviews",
+          "topics": [
+            "DBMS",
+            "DP",
+            "Graphs"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Trees + Aptitude + Networks — asked in 22%/22%/17% of recent Amazon interviews",
+          "topics": [
+            "Trees",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "rec_amazon_2026_12_576",
+      "rec_amazon_2026_12_276",
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "rec_amazon_2025_11_251",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp"
+    ]
+  },
+  {
+    "id": "61fe8394a724a4ef",
+    "created_at": "2026-08-20T08:26:55.643Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 23,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 57,
+        "evidence": "13/23 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 43,
+        "evidence": "10/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 30,
+        "evidence": "7/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 26,
+        "evidence": "6/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 17,
+        "evidence": "4/23 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 23 Amazon interview records, your highest-impact gap is OS (asked in 57% of interviews). This plan front-loads it.",
+      "confidenceNote": "23 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + Strings — asked in 57%/43%/30% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "Strings"
+          ],
+          "practice": [
+            "Deep dive project walkthrough: Explain tech stack architecture and design choices.",
+            "Find longest palindromic substring and check valid anagram string pattern matching.",
+            "Solve N-Queens problem using recursion and backtracking.",
+            "Reverse a doubly linked list in pairs and detect cycle using Floyd algorithm."
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276",
+            "gfg_amazon_2026_01"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DBMS + DP + Graphs — asked in 26%/22%/22% of recent Amazon interviews",
+          "topics": [
+            "DBMS",
+            "DP",
+            "Graphs"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Trees + Aptitude + Networks — asked in 22%/22%/17% of recent Amazon interviews",
+          "topics": [
+            "Trees",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "rec_amazon_2026_12_576",
+      "rec_amazon_2026_12_276",
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "rec_amazon_2025_11_251",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp"
+    ]
+  },
+  {
+    "id": "410ba4356463842a",
+    "created_at": "2026-08-20T08:28:35.259Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 23,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 57,
+        "evidence": "13/23 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 43,
+        "evidence": "10/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 30,
+        "evidence": "7/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 26,
+        "evidence": "6/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 17,
+        "evidence": "4/23 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 23 Amazon interview records, your highest-impact gap is OS (asked in 57% of interviews). This plan front-loads it.",
+      "confidenceNote": "23 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + Strings — asked in 57%/43%/30% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "Strings"
+          ],
+          "practice": [
+            "Deep dive project walkthrough: Explain tech stack architecture and design choices.",
+            "Find longest palindromic substring and check valid anagram string pattern matching.",
+            "Solve N-Queens problem using recursion and backtracking.",
+            "Reverse a doubly linked list in pairs and detect cycle using Floyd algorithm."
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276",
+            "gfg_amazon_2026_01"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DBMS + DP + Graphs — asked in 26%/22%/22% of recent Amazon interviews",
+          "topics": [
+            "DBMS",
+            "DP",
+            "Graphs"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Trees + Aptitude + Networks — asked in 22%/22%/17% of recent Amazon interviews",
+          "topics": [
+            "Trees",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "rec_amazon_2026_12_576",
+      "rec_amazon_2026_12_276",
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "rec_amazon_2025_11_251",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp"
+    ]
+  },
+  {
+    "id": "c393e6b819f7d5a9",
+    "created_at": "2026-08-20T09:18:12.856Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 23,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 57,
+        "evidence": "13/23 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 43,
+        "evidence": "10/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 30,
+        "evidence": "7/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 26,
+        "evidence": "6/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 17,
+        "evidence": "4/23 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 23 Amazon interview records, your highest-impact gap is OS (asked in 57% of interviews). This plan front-loads it.",
+      "confidenceNote": "23 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + Strings — asked in 57%/43%/30% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "Strings"
+          ],
+          "practice": [
+            "Deep dive project walkthrough: Explain tech stack architecture and design choices.",
+            "Find longest palindromic substring and check valid anagram string pattern matching.",
+            "Solve N-Queens problem using recursion and backtracking.",
+            "Reverse a doubly linked list in pairs and detect cycle using Floyd algorithm."
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276",
+            "gfg_amazon_2026_01"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DBMS + DP + Graphs — asked in 26%/22%/22% of recent Amazon interviews",
+          "topics": [
+            "DBMS",
+            "DP",
+            "Graphs"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Trees + Aptitude + Networks — asked in 22%/22%/17% of recent Amazon interviews",
+          "topics": [
+            "Trees",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "rec_amazon_2026_12_576",
+      "rec_amazon_2026_12_276",
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "rec_amazon_2025_11_251",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp"
+    ]
+  },
+  {
+    "id": "4ba39837e75631fd",
+    "created_at": "2026-08-20T09:19:20.406Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 23,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 57,
+        "evidence": "13/23 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 43,
+        "evidence": "10/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 30,
+        "evidence": "7/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 26,
+        "evidence": "6/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 17,
+        "evidence": "4/23 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 23 Amazon interview records, your highest-impact gap is OS (asked in 57% of interviews). This plan front-loads it.",
+      "confidenceNote": "23 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + Strings — asked in 57%/43%/30% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "Strings"
+          ],
+          "practice": [
+            "Deep dive project walkthrough: Explain tech stack architecture and design choices.",
+            "Find longest palindromic substring and check valid anagram string pattern matching.",
+            "Solve N-Queens problem using recursion and backtracking.",
+            "Reverse a doubly linked list in pairs and detect cycle using Floyd algorithm."
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276",
+            "gfg_amazon_2026_01"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DBMS + DP + Graphs — asked in 26%/22%/22% of recent Amazon interviews",
+          "topics": [
+            "DBMS",
+            "DP",
+            "Graphs"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Trees + Aptitude + Networks — asked in 22%/22%/17% of recent Amazon interviews",
+          "topics": [
+            "Trees",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "rec_amazon_2026_12_576",
+      "rec_amazon_2026_12_276",
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "rec_amazon_2025_11_251",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp"
+    ]
+  },
+  {
+    "id": "b416cd5d15bbfb7f",
+    "created_at": "2026-08-20T09:22:09.127Z",
+    "resumeId": null,
+    "company": "Amazon",
+    "role": "SDE-1",
+    "mode": "adaptive",
+    "skills": [
+      "Arrays",
+      "OOPs"
+    ],
+    "readinessScore": 23,
+    "gaps": [
+      {
+        "topic": "OS",
+        "askedPct": 57,
+        "evidence": "13/23 interviews in this window",
+        "priority": "critical"
+      },
+      {
+        "topic": "Behavioral",
+        "askedPct": 43,
+        "evidence": "10/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "Strings",
+        "askedPct": 30,
+        "evidence": "7/23 interviews in this window",
+        "priority": "high"
+      },
+      {
+        "topic": "DBMS",
+        "askedPct": 26,
+        "evidence": "6/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "DP",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Graphs",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Trees",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Aptitude",
+        "askedPct": 22,
+        "evidence": "5/23 interviews in this window",
+        "priority": "medium"
+      },
+      {
+        "topic": "Networks",
+        "askedPct": 17,
+        "evidence": "4/23 interviews in this window",
+        "priority": "medium"
+      }
+    ],
+    "plan": {
+      "summary": "Based on 23 Amazon interview records, your highest-impact gap is OS (asked in 57% of interviews). This plan front-loads it.",
+      "confidenceNote": "23 interviews from the last 24 months.",
+      "weeks": [
+        {
+          "week": 1,
+          "focus": "OS + Behavioral + Strings — asked in 57%/43%/30% of recent Amazon interviews",
+          "topics": [
+            "OS",
+            "Behavioral",
+            "Strings"
+          ],
+          "practice": [
+            "Deep dive project walkthrough: Explain tech stack architecture and design choices.",
+            "Find longest palindromic substring and check valid anagram string pattern matching.",
+            "Solve N-Queens problem using recursion and backtracking.",
+            "Reverse a doubly linked list in pairs and detect cycle using Floyd algorithm."
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276",
+            "gfg_amazon_2026_01"
+          ]
+        },
+        {
+          "week": 2,
+          "focus": "DBMS + DP + Graphs — asked in 26%/22%/22% of recent Amazon interviews",
+          "topics": [
+            "DBMS",
+            "DP",
+            "Graphs"
+          ],
+          "practice": [
+            "String and Prefix Sum problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Graph and Dynamic Programming problems at LeetCode Medium difficulty (exact titles not stated)",
+            "Tell me about a time you faced a significant technical challenge",
+            "Describe a situation where you had to solve a problem with limited information"
+          ],
+          "citations": [
+            "gfg_amazon_2026_01",
+            "gfg_amazon_2025_mszywyy4_wj78",
+            "gfg_amazon_2025_mszyx04y_afs6"
+          ]
+        },
+        {
+          "week": 3,
+          "focus": "Trees + Aptitude + Networks — asked in 22%/22%/17% of recent Amazon interviews",
+          "topics": [
+            "Trees",
+            "Aptitude",
+            "Networks"
+          ],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        },
+        {
+          "week": 4,
+          "focus": "Consolidation, mock interviews and revision",
+          "topics": [],
+          "practice": [
+            "Revise previous weeks and attempt a full timed mock interview"
+          ],
+          "citations": [
+            "rec_amazon_2026_12_576",
+            "rec_amazon_2026_12_276"
+          ]
+        }
+      ],
+      "generatedBy": "deterministic_template"
+    },
+    "citations": [
+      "rec_amazon_2026_12_576",
+      "rec_amazon_2026_12_276",
+      "leetcode_amazon_2026_27",
+      "gfg_amazon_2026_01",
+      "gfg_amazon_2025_mszywyy4_wj78",
+      "gfg_amazon_2025_mszyx04y_afs6",
+      "rec_amazon_2025_11_251",
+      "gfg_amazonqaeoncampusplacement_2025_mszyx1r3_xczp"
+    ]
   }
 ]
